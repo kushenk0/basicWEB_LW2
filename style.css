@@ -1,0 +1,48 @@
+/*Зображення за допомогою position*/
+.flag-position {
+    position: relative;
+    height: 300px; width: 300px;
+    background-color: #D51800;
+    top: 20px;
+}
+
+.white-position {
+    position: absolute;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.vertical-position {
+    top: 235px;
+    left: 115px;
+    height: 210px;
+    width: 80px;
+}
+
+.horizontal-position {
+    top: 300px; left: 50px;
+    height: 80px; width: 210px;
+}
+
+/*Зображення за допомогою transform*/
+.flag-transform {
+    transform: translate(400px, -280px);
+    height: 300px;
+    width: 300px;
+    background-color: #D51800;
+}
+.white-transform {
+    background-color: white;
+    border-radius: 15px;
+}
+
+.vertical-transform{
+    top: 235px; left: 115px;
+    height: 210px; width: 80px;
+    transform: translate(510px, -530px);
+}
+.horizontal-transform{
+    top: 300px; left: 50px;
+    height: 80px; width: 210px;
+    transform: translate(445px, -675px);
+}
